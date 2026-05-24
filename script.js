@@ -5,6 +5,8 @@ const nav = document.querySelector("#site-nav");
 const navToggle = document.querySelector(".nav-toggle");
 const contactForm = document.querySelector("[data-contact-form]");
 const formNote = document.querySelector("[data-form-note]");
+const productFilterButtons = Array.from(document.querySelectorAll("[data-products-filter]"));
+const productCards = Array.from(document.querySelectorAll("[data-product-category]"));
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 
 function setHeaderState() {
@@ -74,6 +76,27 @@ if (contactForm) {
   });
 }
 
+function setupProductFilters() {
+  if (!productFilterButtons.length || !productCards.length) return;
+
+  productFilterButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      const filter = button.dataset.productsFilter || "all";
+
+      productFilterButtons.forEach((item) => {
+        const isActive = item === button;
+        item.classList.toggle("is-active", isActive);
+        item.setAttribute("aria-pressed", String(isActive));
+      });
+
+      productCards.forEach((card) => {
+        const shouldShow = filter === "all" || card.dataset.productCategory === filter;
+        card.hidden = !shouldShow;
+      });
+    });
+  });
+}
+
 function setupScrollReveal() {
   if (prefersReducedMotion.matches) return;
 
@@ -85,6 +108,9 @@ function setupScrollReveal() {
     ".service-row",
     ".portfolio-intro",
     ".project-card",
+    ".product-intro",
+    ".product-toolbar",
+    ".product-card",
     ".process-layout .section-heading",
     ".process-timeline li",
     ".founder-image",
@@ -128,5 +154,6 @@ function setupScrollReveal() {
 }
 
 setHeaderState();
+setupProductFilters();
 setupScrollReveal();
 window.addEventListener("scroll", setHeaderState, { passive: true });
