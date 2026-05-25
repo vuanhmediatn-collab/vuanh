@@ -1,0 +1,222 @@
+{
+  "hero": {
+    "eyebrow": "VŨ ANH MEDIA",
+    "headline": "NỘI DUNG CẦN\nĐƯỢC XÂY DỰNG\nNHƯ MỘT HỆ THỐNG\nVẬN HÀNH\nCHUYÊN NGHIỆP,\nBÀI BẢN,\nKHÔNG NGẮN HẠN",
+    "subtexts": [
+      "Nhiều doanh nghiệp có hình ảnh đẹp nhưng quá trình sản xuất lại phụ thuộc vào từng thời điểm, từng con người và từng cảm hứng ngắn hạn.",
+      "VŨ ANH MEDIA xây dựng quy trình sản xuất rõ ràng hơn để đội ngũ có thể duy trì nội dung đều, phối hợp dễ và sử dụng được lâu hơn về sau."
+    ],
+    "ctaPrimary": {
+      "label": "Trao đổi cùng VŨ ANH MEDIA",
+      "url": "#contact"
+    },
+    "ctaSecondary": {
+      "label": "Xem cách chúng tôi làm việc",
+      "url": "#process"
+    },
+    "proofPoints": [
+      "Việc cần quay được chốt sớm",
+      "Người duyệt nhìn đúng bản",
+      "Tư liệu dễ dùng lại"
+    ],
+    "visual": {
+      "image": "assets/hero/hero-main.jpg",
+      "alt": "Không gian làm việc production với máy quay, ánh sáng và màn hình hậu kỳ",
+      "captionLabel": "Bàn sản xuất",
+      "captionText": "Shotlist, ánh sáng và bản dựng đi cùng một hướng"
+    },
+    "cards": [
+      {
+        "number": "01",
+        "title": "Trước ngày quay",
+        "description": "Mục tiêu, bối cảnh và người duyệt được làm rõ trước ngày quay."
+      },
+      {
+        "number": "02",
+        "title": "Trong ngày quay",
+        "description": "Ánh sáng, âm thanh, khung hình và dữ liệu được giữ chặt trên set."
+      },
+      {
+        "number": "03",
+        "title": "Sau bàn giao",
+        "description": "Bản cuối, bản rút gọn và tư liệu gốc được đặt đúng phiên bản."
+      }
+    ]
+  },
+  "capabilities": [
+    "Thẩm mỹ",
+    "Nha khoa",
+    "Sản phẩm",
+    "Doanh nghiệp",
+    "Đào tạo"
+  ],
+  "whyChoose": {
+    "eyebrow": "Vì sao chọn",
+    "headline": "MỘT VIDEO ĐẸP,\nKHÔNG KHÓ BẰNG VIỆC\nDUY TRÌ CHẤT LƯỢNG ĐỀU\nTRONG NHIỀU THÁNG,\nVÀ CÓ HIỆU QUẢ CAO",
+    "paragraphs": [
+      "Điều doanh nghiệp cần về lâu dài không chỉ là vài sản phẩm nổi bật.",
+      "Mà là một cách làm việc giúp hình ảnh, nội dung và đội ngũ có thể phối hợp ổn định theo thời gian."
+    ],
+    "cards": [
+      {
+        "number": "01",
+        "title": "Rõ việc trước khi quay",
+        "description": "Làm rõ nội dung phục vụ việc gì, nói với ai và phần tư liệu nào cần giữ lại."
+      },
+      {
+        "number": "02",
+        "title": "Phối hợp có nhịp",
+        "description": "Lịch quay, shotlist, vai trò, mốc duyệt và phản hồi được thống nhất trước khi vào việc."
+      },
+      {
+        "number": "03",
+        "title": "Giữ chuẩn qua từng lần",
+        "description": "Khung hình, màu sắc, âm thanh và nhịp dựng được giữ cùng một chuẩn qua nhiều lần sản xuất."
+      },
+      {
+        "number": "04",
+        "title": "Làm lâu không mất nhịp",
+        "description": "Giữ lại kinh nghiệm sau mỗi lần làm việc để lần sau chuẩn bị nhanh hơn và ít hao sức hơn."
+      }
+    ]
+  },
+  "servicesSection": {
+    "eyebrow": "Dịch vụ",
+    "headline": "QUY TRÌNH RÕ RÀNG\nGIÚP ĐỘI NGŨ\nKHÔNG PHỤ THUỘC\nVÀO CẢM HỨNG NHẤT THỜI",
+    "paragraph": "Mỗi doanh nghiệp bước vào media ở một thời điểm khác nhau. Có nơi cần một phim ra mắt được làm kỹ. Có nơi cần lịch quay đều. Có đội ngũ chỉ cần sắp lại tư liệu để những gì đã quay không bị bỏ phí.",
+    "services": [
+      {
+        "number": "01",
+        "title": "Sản xuất theo dự án",
+        "description": "Phù hợp khi anh/chị cần một bộ hình ảnh được chuẩn bị kỹ trước ngày bấm máy: phim thương hiệu, video sản phẩm, sự kiện, chân dung đội ngũ hoặc bộ ảnh doanh nghiệp.",
+        "bullets": [
+          "Phạm vi và lịch làm việc rõ từ đầu",
+          "Shotlist, bối cảnh, nhân sự, thiết bị",
+          "Bản cuối đúng kênh sử dụng"
+        ],
+        "featured": false
+      },
+      {
+        "number": "02",
+        "title": "Nội dung định kỳ",
+        "description": "Dành cho doanh nghiệp cần xuất hiện đều hơn, nhưng không muốn mỗi tháng lại bắt đầu từ một brief mới, một file cũ thất lạc và một cách làm khác.",
+        "bullets": [
+          "Lịch quay và lịch hậu kỳ theo tháng",
+          "Khung nội dung lặp lại được mà không cũ",
+          "Một đầu mối giữ nhịp sản xuất"
+        ],
+        "featured": true
+      },
+      {
+        "number": "03",
+        "title": "Sắp xếp lại tư liệu và cách duyệt",
+        "description": "Dành cho đội ngũ đã có nhiều file, nhiều người tham gia và cần cách brief, duyệt, lưu trữ, bàn giao gọn hơn để không thất lạc công sức đã bỏ ra.",
+        "bullets": [
+          "Cách brief và phản hồi rõ hơn",
+          "Thư mục, tên file và bản sao lưu gọn hơn",
+          "Vai trò rõ trong từng giai đoạn"
+        ],
+        "featured": false
+      }
+    ]
+  },
+  "portfolioSection": {
+    "eyebrow": "Dự án tiêu biểu",
+    "headline": "KHI QUY TRÌNH\nĐỦ GỌN\nĐỘI NGŨ SẼ CÓ NHIỀU\nTHỜI GIAN HƠN\nCHO CHẤT LƯỢNG",
+    "paragraph": "Một dự án tốt thường bắt đầu bằng một nhu cầu rất cụ thể: ra mắt sản phẩm, ghi lại không gian, làm mới hình ảnh thương hiệu hoặc giữ nhịp nội dung trong một giai đoạn dài.",
+    "projects": [
+      {
+        "image": "assets/portfolio/project-01.png",
+        "alt": "Không gian thương hiệu được xử lý bằng ánh sáng điện ảnh",
+        "kicker": "Không gian thương hiệu / ánh sáng hiện trường",
+        "title": "Phim giới thiệu không gian",
+        "description": "Phim chính, ảnh không gian và tư liệu giữ lại cho giai đoạn ra mắt."
+      },
+      {
+        "image": "assets/portfolio/project-02.jpg",
+        "alt": "Máy quay, monitor và bối cảnh sản xuất video",
+        "kicker": "Set quay sản phẩm / phim ra mắt",
+        "title": "Phim ra mắt sản phẩm",
+        "description": "Video chính, bản rút gọn và phiên bản bàn giao theo từng kênh."
+      },
+      {
+        "image": "assets/portfolio/project-03.png",
+        "alt": "Sản phẩm được đặt trong ánh sáng tối giản và cao cấp",
+        "kicker": "Ảnh sản phẩm / chi tiết chất liệu",
+        "title": "Editorial sản phẩm",
+        "description": "Ảnh chủ đạo, video ngắn và bộ tư liệu chi tiết để dùng lại."
+      }
+    ]
+  },
+  "productsSection": {
+    "headline": "SẢN PHẨM ĐÃ\nTRIỂN KHAI",
+    "paragraph": "Một số dự án video, hình ảnh và nội dung định kỳ đã được VŨ ANH MEDIA thực hiện cho khách hàng trong các lĩnh vực thẩm mỹ, nha khoa, sản phẩm, sự kiện và đào tạo."
+  },
+  "processSection": {
+    "eyebrow": "Quy trình làm việc",
+    "headline": "NHIỀU VẤN ĐỀ\nTRONG MEDIA\nTHƯỜNG ĐẾN TỪ\nNHỮNG THỨ\nKHÔNG ĐƯỢC THỐNG NHẤT\nTỪ ĐẦU",
+    "paragraph": "Quy trình tốt không làm buổi quay cứng lại. Nó chỉ giúp đúng người biết mình cần chuẩn bị gì, duyệt gì, nhận lại gì và phần nào phải được giữ sạch sau khi dự án kết thúc.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Lắng nghe & nhìn bối cảnh",
+        "description": "Hiểu nhu cầu hiện tại, tình trạng tư liệu đang có và mức độ sẵn sàng của đội ngũ."
+      },
+      {
+        "number": "02",
+        "title": "Chốt cách làm",
+        "description": "Thống nhất mục tiêu, định dạng, lịch quay, shotlist, người duyệt và mốc hậu kỳ."
+      },
+      {
+        "number": "03",
+        "title": "Sản xuất",
+        "description": "Quay/chụp theo kế hoạch, đồng thời giữ đủ khoảng linh hoạt cho những khoảnh khắc thật."
+      },
+      {
+        "number": "04",
+        "title": "Hậu kỳ",
+        "description": "Dựng, chỉnh màu, xử lý âm thanh, phụ đề và nhận phản hồi theo từng phiên bản."
+      },
+      {
+        "number": "05",
+        "title": "Bàn giao & lưu trữ",
+        "description": "Bàn giao bản cuối, tư liệu cần thiết và cấu trúc lưu trữ để sau này không phải hỏi lại."
+      }
+    ]
+  },
+  "founderSection": {
+    "eyebrow": "Về chúng tôi",
+    "headline": "KINH NGHIỆM TRONG MEDIA\nKHÔNG CHỈ NẰM\nỞ VIỆC QUAY ĐẸP\nMÀ Ở CÁCH GIỮ NHỊP\nTOÀN BỘ QUÁ TRÌNH\nHOÀN THIỆN",
+    "paragraphs": [
+      "VŨ ANH MEDIA được xây như một nhóm production thực thụ: ít nói những điều bóng bẩy, dành nhiều sự chú ý cho brief, ngày quay, dữ liệu hiện trường và cách bàn giao sau cùng.",
+      "Kinh nghiệm thường nằm ở những việc nhỏ: biết khi nào cần quay thêm một góc, giữ lại âm thanh nền, đặt tên file đúng, hoặc nhắc khách duyệt đúng phiên bản trước khi đi tiếp."
+    ],
+    "image": "assets/founder/founder-main.png",
+    "alt": "Founder VŨ ANH MEDIA trong không gian làm việc production",
+    "metrics": [
+      {
+        "title": "Trước quay",
+        "description": "Mục tiêu, định dạng và bối cảnh rõ trước ngày sản xuất."
+      },
+      {
+        "title": "Trên set",
+        "description": "Ánh sáng, âm thanh, khung hình và dữ liệu được giữ chặt."
+      },
+      {
+        "title": "Hậu kỳ",
+        "description": "Bản dựng, màu, âm thanh và phụ đề đi theo một nhịp."
+      },
+      {
+        "title": "Lưu trữ",
+        "description": "Bản cuối và tư liệu gốc được sắp để dễ tìm lại."
+      }
+    ]
+  },
+  "contactSection": {
+    "eyebrow": "Liên hệ",
+    "headline": "MỘT CUỘC TRAO ĐỔI NGẮN\nTHƯỜNG GIÚP\nQUÝ DOANH NGHIỆP\nNHÌN RÕ HƠN NHỮNG ĐIỂM\nĐANG GÂY RỐI\nTRONG QUÁ TRÌNH\nLÀM MEDIA",
+    "paragraph": "VŨ ANH MEDIA sẽ lắng nghe nhu cầu hiện tại của doanh nghiệp anh/chị trước khi đề xuất cách làm. Một dự án riêng, một lịch quay định kỳ hay một kho tư liệu cần sắp lại đều nên bắt đầu từ đúng bối cảnh kinh doanh.",
+    "buttonLabel": "Gửi yêu cầu tư vấn",
+    "formNote": "Chúng tôi sẽ phản hồi với sự chuẩn bị kỹ lưỡng và tôn trọng thời gian của anh/chị."
+  }
+}

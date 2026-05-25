@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "visible": true,
+      "category": "video",
+      "title": "Phim giới thiệu phòng khám",
+      "description": "Khung hình sạch, nhịp dựng gọn cho kênh số.",
+      "client": "",
+      "year": "",
+      "thumbnail": "assets/products/product-01.jpg",
+      "thumbnailAlt": "Thumbnail phim giới thiệu phòng khám",
+      "videoUrl": "#"
+    },
+    {
+      "visible": true,
+      "category": "video",
+      "title": "Video ra mắt sản phẩm",
+      "description": "Tập trung chất liệu, chuyển động và phiên bản ngắn.",
+      "client": "",
+      "year": "",
+      "thumbnail": "assets/products/product-02.jpg",
+      "thumbnailAlt": "Thumbnail video ra mắt sản phẩm",
+      "videoUrl": "#"
+    },
+    {
+      "visible": true,
+      "category": "video",
+      "title": "Tư liệu sự kiện đào tạo",
+      "description": "Ghi hình diễn biến chính để dùng lại sau chương trình.",
+      "client": "",
+      "year": "",
+      "thumbnail": "assets/products/product-03.jpg",
+      "thumbnailAlt": "Thumbnail tư liệu sự kiện đào tạo",
+      "videoUrl": "#"
+    },
+    {
+      "visible": true,
+      "category": "image",
+      "title": "Bộ ảnh không gian thẩm mỹ",
+      "description": "Ánh sáng mềm, bố cục giữ đúng tinh thần thương hiệu.",
+      "client": "",
+      "year": "",
+      "thumbnail": "assets/products/product-04.jpg",
+      "thumbnailAlt": "Bộ ảnh không gian thẩm mỹ",
+      "videoUrl": ""
+    },
+    {
+      "visible": true,
+      "category": "image",
+      "title": "Ảnh sản phẩm cao cấp",
+      "description": "Chi tiết bề mặt, màu sắc và form dáng được giữ rõ.",
+      "client": "",
+      "year": "",
+      "thumbnail": "assets/products/product-05.jpg",
+      "thumbnailAlt": "Ảnh sản phẩm cao cấp",
+      "videoUrl": ""
+    },
+    {
+      "visible": true,
+      "category": "image",
+      "title": "Chân dung đội ngũ nha khoa",
+      "description": "Hình ảnh chỉn chu cho hồ sơ, website và nội dung.",
+      "client": "",
+      "year": "",
+      "thumbnail": "assets/products/product-06.jpg",
+      "thumbnailAlt": "Chân dung đội ngũ nha khoa",
+      "videoUrl": ""
+    },
+    {
+      "visible": true,
+      "category": "regular",
+      "title": "Lịch nội dung phòng khám",
+      "description": "Một nhịp quay định kỳ cho nhiều kênh sử dụng.",
+      "client": "",
+      "year": "",
+      "thumbnail": "assets/products/product-07.jpg",
+      "thumbnailAlt": "Lịch nội dung phòng khám",
+      "videoUrl": ""
+    },
+    {
+      "visible": true,
+      "category": "regular",
+      "title": "Nội dung tháng cho thương hiệu",
+      "description": "Giữ chất lượng đều mà không phải bắt đầu lại từ đầu.",
+      "client": "",
+      "year": "",
+      "thumbnail": "assets/products/product-08.jpg",
+      "thumbnailAlt": "Nội dung tháng cho thương hiệu",
+      "videoUrl": ""
+    }
+  ]
+}

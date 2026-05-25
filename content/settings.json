@@ -1,0 +1,28 @@
+{
+  "brand": {
+    "name": "VŨ ANH MEDIA",
+    "tagline": "MEDIA PRODUCTION & OPERATIONS",
+    "logo": "assets/logo-main.png"
+  },
+  "contact": {
+    "email": "hello@vuanhmedia.vn",
+    "phone": "",
+    "address": ""
+  },
+  "socialLinks": [
+    {
+      "label": "Facebook",
+      "url": ""
+    },
+    {
+      "label": "YouTube",
+      "url": ""
+    }
+  ],
+  "cta": {
+    "navText": "Tư vấn dự án"
+  },
+  "footer": {
+    "description": "Hình ảnh chỉn chu, tư liệu gọn gàng cho doanh nghiệp của anh/chị."
+  }
+}

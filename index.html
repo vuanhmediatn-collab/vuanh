@@ -20,6 +20,7 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@300..800&amp;display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="assets/logo-main.png" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -68,14 +69,16 @@
               <span class="headline-line">BÀI BẢN,</span>
               <span class="headline-line">KHÔNG NGẮN HẠN</span>
             </h1>
-            <p class="hero-lede">
-              Nhiều doanh nghiệp có hình ảnh đẹp nhưng quá trình sản xuất lại phụ thuộc
-              vào từng thời điểm, từng con người và từng cảm hứng ngắn hạn.
-            </p>
-            <p class="hero-lede hero-lede-secondary">
-              VŨ ANH MEDIA xây dựng quy trình sản xuất rõ ràng hơn để đội ngũ có thể
-              duy trì nội dung đều, phối hợp dễ và sử dụng được lâu hơn về sau.
-            </p>
+            <div class="hero-lede-group">
+              <p class="hero-lede">
+                Nhiều doanh nghiệp có hình ảnh đẹp nhưng quá trình sản xuất lại phụ thuộc
+                vào từng thời điểm, từng con người và từng cảm hứng ngắn hạn.
+              </p>
+              <p class="hero-lede hero-lede-secondary">
+                VŨ ANH MEDIA xây dựng quy trình sản xuất rõ ràng hơn để đội ngũ có thể
+                duy trì nội dung đều, phối hợp dễ và sử dụng được lâu hơn về sau.
+              </p>
+            </div>
             <div class="hero-actions" aria-label="Hành động chính">
               <a class="button button-primary" href="#contact">Trao đổi cùng VŨ ANH MEDIA</a>
               <a class="button button-secondary" href="#process">Xem cách chúng tôi làm việc</a>
@@ -577,7 +580,11 @@
           <img src="assets/logo-main.png" alt="" />
           <span>VŨ ANH MEDIA</span>
         </a>
-        <p>Hình ảnh chỉn chu, tư liệu gọn gàng cho doanh nghiệp của anh/chị.</p>
+        <div class="footer-copy">
+          <p data-footer-description>Hình ảnh chỉn chu, tư liệu gọn gàng cho doanh nghiệp của anh/chị.</p>
+          <p class="footer-contact" data-footer-contact hidden></p>
+          <nav class="footer-social" data-footer-social hidden aria-label="Kênh xã hội"></nav>
+        </div>
       </div>
     </footer>
 

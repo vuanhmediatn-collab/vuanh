@@ -1,0 +1,242 @@
+backend:
+  name: github
+  repo: vuanhmediatn-collab/vuanh
+  branch: main
+
+media_folder: assets/uploads
+public_folder: /assets/uploads
+
+editor:
+  preview: false
+
+collections:
+  - name: homepage
+    label: Homepage
+    files:
+      - name: homepage
+        label: Nội dung trang chủ
+        file: content/homepage.json
+        format: json
+        fields:
+          - label: Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - label: Headline
+                name: headline
+                widget: text
+                hint: Mỗi dòng trong ô này sẽ được hiển thị thành một dòng headline.
+              - label: Subtext
+                name: subtexts
+                widget: list
+                field: { label: Đoạn mô tả, name: text, widget: text }
+              - label: CTA chính
+                name: ctaPrimary
+                widget: object
+                fields:
+                  - { label: Text, name: label, widget: string }
+                  - { label: Link, name: url, widget: string }
+              - label: CTA phụ
+                name: ctaSecondary
+                widget: object
+                fields:
+                  - { label: Text, name: label, widget: string }
+                  - { label: Link, name: url, widget: string }
+              - label: Proof points
+                name: proofPoints
+                widget: list
+                field: { label: Nội dung, name: text, widget: string }
+              - label: Visual hero
+                name: visual
+                widget: object
+                fields:
+                  - { label: Ảnh, name: image, widget: image }
+                  - { label: Alt text, name: alt, widget: string }
+                  - { label: Nhãn caption, name: captionLabel, widget: string }
+                  - { label: Nội dung caption, name: captionText, widget: string }
+              - label: Glass cards hero
+                name: cards
+                widget: list
+                summary: "{{fields.number}} - {{fields.title}}"
+                fields:
+                  - { label: Số thứ tự, name: number, widget: string }
+                  - { label: Tiêu đề, name: title, widget: string }
+                  - { label: Mô tả, name: description, widget: text }
+          - label: Capability band
+            name: capabilities
+            widget: list
+            field: { label: Lĩnh vực, name: capability, widget: string }
+          - label: Vì sao chọn
+            name: whyChoose
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Headline, name: headline, widget: text }
+              - label: Paragraphs
+                name: paragraphs
+                widget: list
+                field: { label: Đoạn văn, name: paragraph, widget: text }
+              - label: Cards
+                name: cards
+                widget: list
+                summary: "{{fields.number}} - {{fields.title}}"
+                fields:
+                  - { label: Số thứ tự, name: number, widget: string }
+                  - { label: Tiêu đề, name: title, widget: string }
+                  - { label: Mô tả, name: description, widget: text }
+          - label: Dịch vụ
+            name: servicesSection
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Headline, name: headline, widget: text }
+              - { label: Paragraph, name: paragraph, widget: text }
+              - label: Service cards
+                name: services
+                widget: list
+                summary: "{{fields.number}} - {{fields.title}}"
+                fields:
+                  - { label: Số thứ tự, name: number, widget: string }
+                  - { label: Tiêu đề, name: title, widget: string }
+                  - { label: Mô tả, name: description, widget: text }
+                  - label: Gạch đầu dòng
+                    name: bullets
+                    widget: list
+                    field: { label: Ý, name: bullet, widget: string }
+                  - { label: Là card nhấn mạnh, name: featured, widget: boolean, required: false, default: false }
+          - label: Portfolio
+            name: portfolioSection
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Headline, name: headline, widget: text }
+              - { label: Paragraph, name: paragraph, widget: text }
+              - label: Project cards
+                name: projects
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: Ảnh, name: image, widget: image }
+                  - { label: Alt text, name: alt, widget: string }
+                  - { label: Nhãn nhỏ, name: kicker, widget: string }
+                  - { label: Tiêu đề, name: title, widget: string }
+                  - { label: Mô tả, name: description, widget: text }
+          - label: Products section intro
+            name: productsSection
+            widget: object
+            fields:
+              - { label: Headline, name: headline, widget: text }
+              - { label: Paragraph, name: paragraph, widget: text }
+          - label: Process
+            name: processSection
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Headline, name: headline, widget: text }
+              - { label: Paragraph, name: paragraph, widget: text }
+              - label: Process steps
+                name: steps
+                widget: list
+                summary: "{{fields.number}} - {{fields.title}}"
+                fields:
+                  - { label: Số thứ tự, name: number, widget: string }
+                  - { label: Tiêu đề, name: title, widget: string }
+                  - { label: Mô tả, name: description, widget: text }
+          - label: Founder / Team
+            name: founderSection
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Headline, name: headline, widget: text }
+              - label: Paragraphs
+                name: paragraphs
+                widget: list
+                field: { label: Đoạn văn, name: paragraph, widget: text }
+              - { label: Ảnh, name: image, widget: image }
+              - { label: Alt text, name: alt, widget: string }
+              - label: Metrics
+                name: metrics
+                widget: list
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: Tiêu đề, name: title, widget: string }
+                  - { label: Mô tả, name: description, widget: text }
+          - label: CTA cuối / Form intro
+            name: contactSection
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - { label: Headline, name: headline, widget: text }
+              - { label: Form intro text, name: paragraph, widget: text }
+              - { label: Button text, name: buttonLabel, widget: string }
+              - { label: Microcopy dưới button, name: formNote, widget: text }
+
+  - name: products
+    label: Products
+    files:
+      - name: products
+        label: Danh sách sản phẩm
+        file: content/products.json
+        format: json
+        fields:
+          - label: Products
+            name: products
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Hiển thị, name: visible, widget: boolean, default: true }
+              - label: Loại sản phẩm
+                name: category
+                widget: select
+                options:
+                  - { label: Video, value: video }
+                  - { label: Hình ảnh, value: image }
+                  - { label: Khách hàng thường xuyên, value: regular }
+              - { label: Title, name: title, widget: string }
+              - { label: Mô tả ngắn, name: description, widget: text }
+              - { label: Client, name: client, widget: string, required: false }
+              - { label: Year, name: year, widget: string, required: false }
+              - { label: Thumbnail, name: thumbnail, widget: image }
+              - { label: Alt text thumbnail, name: thumbnailAlt, widget: string, required: false }
+              - { label: Video URL, name: videoUrl, widget: string, required: false }
+
+  - name: settings
+    label: Settings
+    files:
+      - name: settings
+        label: Cài đặt chung
+        file: content/settings.json
+        format: json
+        fields:
+          - label: Brand
+            name: brand
+            widget: object
+            fields:
+              - { label: Brand name, name: name, widget: string }
+              - { label: Tagline dưới logo, name: tagline, widget: string }
+              - { label: Logo, name: logo, widget: image }
+          - label: Thông tin liên hệ
+            name: contact
+            widget: object
+            fields:
+              - { label: Email, name: email, widget: string }
+              - { label: Phone, name: phone, widget: string, required: false }
+              - { label: Địa chỉ, name: address, widget: text, required: false }
+          - label: Social links
+            name: socialLinks
+            widget: list
+            summary: "{{fields.label}}"
+            fields:
+              - { label: Tên kênh, name: label, widget: string }
+              - { label: Link, name: url, widget: string, required: false }
+          - label: CTA chung
+            name: cta
+            widget: object
+            fields:
+              - { label: Text CTA trên menu, name: navText, widget: string }
+          - label: Footer
+            name: footer
+            widget: object
+            fields:
+              - { label: Mô tả footer, name: description, widget: text }
